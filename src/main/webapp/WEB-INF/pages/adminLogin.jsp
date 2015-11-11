@@ -33,7 +33,7 @@
         function login(){
             $.ajax({
                 type: "POST",
-                url: "admin/stuffLogin",
+                url: "admin/staffLogin",
                 data: JSON.stringify({
                        username:$("#username").val(),
                        password:$("#password").val()

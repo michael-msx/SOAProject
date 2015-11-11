@@ -16,7 +16,7 @@ public class DBConnection {
     private DBConnection(){
         // JDBC driver name and database URL
          final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
-         final String DB_URL = "jdbc:mysql://michael-soa.crhqylh0ggsu.ap-southeast-2.rds.amazonaws.com:3306/soa";
+         final String DB_URL = "jdbc:mysql://soa.crhqylh0ggsu.ap-southeast-2.rds.amazonaws.com:3306/soa";
 
         //  Database credentials
          final String USER = "Michael";

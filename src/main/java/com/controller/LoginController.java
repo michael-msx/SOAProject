@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class LoginController {
-    @RequestMapping(value = "/admin/stuffLogin" , method = RequestMethod.POST,headers = {"Content-type=application/json"})
+    @RequestMapping(value = "/admin/staffLogin" , method = {RequestMethod.POST, RequestMethod.GET},headers = {"Content-type=application/json"})
     public int addAdmins( @RequestBody Admin admin){
         System.out.println(admin.getUsername());
         System.out.println(admin.getPassword());
